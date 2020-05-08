@@ -4,7 +4,7 @@
     "module": "CommonJS",
     "pretty": true,
     "sourceMap": true,
-    "importHelpers": true,
+    "importHelpers": false,
     "strict": true,
     "noImplicitAny": true,
     "strictNullChecks": false,
@@ -20,9 +20,7 @@
     "emitDecoratorMetadata": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "lib": [
-      "ESNext"
-    ],
+    "lib": ["ESNext"],
     "baseUrl": "./src",
     "paths": {
       "~*": ["./*"],
